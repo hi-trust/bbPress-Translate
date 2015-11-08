@@ -1,0 +1,2401 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n==1?0:1;\n"
+"Project-Id-Version: bbPress0.8.2.1_tw\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-07-10 19:22+0800\n"
+"Last-Translator: s9011514 <s9011514@gmail.com>\n"
+"Language-Team: bbPress正体中文站 <s9011514@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: Taiwan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: E:\\bbpress\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "对不起，帖子过于老旧。"
+
+#: bb-post.php:9
+msgid "Slow down; you move too fast."
+msgstr "请稍候，您移动过快。"
+
+#: bb-post.php:12
+#: bb-admin/admin-ajax.php:120
+msgid "You need to actually submit some content!"
+msgstr "你必须要填入一些内容!"
+
+#: bb-post.php:16
+#: bb-post.php:37
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "你没被允许发帖，您要登入吗?"
+
+#: bb-post.php:19
+msgid "You are not allowed to write new topics."
+msgstr "你没有权限发新帖。"
+
+#: bb-post.php:27
+msgid "Please enter a topic title"
+msgstr "请输入主题名称"
+
+#: bb-post.php:40
+msgid "This topic has been closed"
+msgstr "这个主题已经被关闭了。"
+
+#: bb-settings.php:139
+#, php-format
+msgid "Doesn&#8217;t look like you&#8217;ve installed bbPress yet, <a href=\"%s\">go here</a>."
+msgstr "看起来您尚未安装过bbPress，请点→<a href=\"%s\">安装</a>。"
+
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "你不允许编辑这些收藏，你怎会到此处?"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "版面并没有存在。"
+
+#: rss.php:34
+#: bb-admin/content.php:15
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "主题"
+
+#: rss.php:40
+msgid "User Favorites"
+msgstr "用户的收藏"
+
+#: rss.php:46
+msgid "Tag"
+msgstr "标签"
+
+#: rss.php:50
+msgid "Forum"
+msgstr "论坛"
+
+#: rss.php:54
+msgid "Last 35 Posts"
+msgstr "最新的35篇文章"
+
+#: statistics.php:9
+#: bb-admin/index.php:27
+#: bb-templates/kakumei/stats.php:3
+msgid "Statistics"
+msgstr "统计"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "你必须登录后才能加入标签"
+
+#: tag-add.php:16
+#: topic.php:15
+msgid "Topic not found."
+msgstr "主题已经不存在了"
+
+#: tag-add.php:21
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "标签并没有加入，不是标签名称无效就是主题被关闭。"
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "无效的标签或主题。"
+
+#: tag-remove.php:22
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr "标签尚未被移除，您无法在关闭的主题中移除标签。"
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "标签不存在"
+
+#: bb-admin/admin-ajax.php:126
+msgid "This topic is closed."
+msgstr "这个主题已经被关闭了。"
+
+#: bb-admin/admin-ajax.php:128
+msgid "Slow down!  You can only post every 30 seconds."
+msgstr "请稍候，你在30秒内只能发一篇文章。"
+
+#: bb-admin/admin-base.php:10
+msgid "Nothing to see here."
+msgstr "这里没有任何资料。"
+
+#: bb-admin/admin-footer.php:3
+msgid "Documentation"
+msgstr "说明文件"
+
+#: bb-admin/admin-footer.php:3
+msgid "Development"
+msgstr "发展状况"
+
+#: bb-admin/admin-footer.php:4
+#, php-format
+msgid "%s seconds"
+msgstr "%s 秒"
+
+#: bb-admin/admin-functions.php:48
+#: bb-admin/index.php:4
+msgid "Dashboard"
+msgstr "管理首页"
+
+#: bb-admin/admin-functions.php:49
+#: bb-templates/kakumei/search.php:11
+msgid "Users"
+msgstr "用户管理"
+
+#: bb-admin/admin-functions.php:50
+msgid "Content"
+msgstr "内容管理"
+
+#: bb-admin/admin-functions.php:51
+msgid "Presentation"
+msgstr "外观设置"
+
+#: bb-admin/admin-functions.php:52
+msgid "Site Management"
+msgstr "网站管理"
+
+#: bb-admin/admin-functions.php:55
+msgid "Find"
+msgstr "搜索"
+
+#: bb-admin/admin-functions.php:56
+msgid "Moderators"
+msgstr "版主"
+
+#: bb-admin/admin-functions.php:57
+#: bb-includes/capabilities.php:159
+msgid "Blocked"
+msgstr "被屏蔽"
+
+#: bb-admin/admin-functions.php:59
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:49
+msgid "Topics"
+msgstr "主题"
+
+#: bb-admin/admin-functions.php:60
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:50
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "文章"
+
+#: bb-admin/admin-functions.php:61
+#: bb-templates/kakumei/front-page.php:44
+msgid "Forums"
+msgstr "论坛"
+
+#: bb-admin/admin-functions.php:63
+msgid "Themes"
+msgstr "主题"
+
+#: bb-admin/admin-functions.php:65
+#: bb-admin/plugins.php:66
+msgid "Plugins"
+msgstr "插件"
+
+#: bb-admin/admin-functions.php:66
+#: bb-admin/site.php:4
+msgid "Recount"
+msgstr "重新统计"
+
+#: bb-admin/admin-functions.php:194
+#: bb-admin/admin-functions.php:524
+#: bb-admin/admin-functions.php:614
+#: bb-includes/functions.php:1705
+#: bb-includes/template-functions.php:965
+msgid "Edit"
+msgstr "编辑"
+
+#: bb-admin/admin-functions.php:248
+#: bb-admin/admin-functions.php:389
+#: bb-includes/bozo.php:266
+msgid "No matching users were found!"
+msgstr "没有找到符合的用户!"
+
+#: bb-admin/admin-functions.php:308
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "符合“%s”身份的用户"
+
+#: bb-admin/admin-functions.php:310
+msgid "User List by Role"
+msgstr "按照用户身份排列"
+
+#: bb-admin/admin-functions.php:316
+msgid "Search for users &raquo;"
+msgstr "搜索用户 &raquo;"
+
+#: bb-admin/admin-functions.php:323
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; 回到用户管理"
+
+#: bb-admin/admin-functions.php:325
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "结果第 %1$s &#8211; 第 %2$s 条显示在下方，共计 %3$s 条"
+
+#: bb-admin/admin-functions.php:337
+msgid "Users with no role in these forums"
+msgstr "该会员没有在讨论区担任任何职务"
+
+#: bb-admin/admin-functions.php:340
+msgid "ID"
+msgstr "ID"
+
+#: bb-admin/admin-functions.php:341
+#: bb-admin/install.php:306
+msgid "Username"
+msgstr "帐号"
+
+#: bb-admin/admin-functions.php:343
+#: bb-includes/functions.php:1757
+msgid "Email"
+msgstr "邮件"
+
+#: bb-admin/admin-functions.php:344
+msgid "Registered Since"
+msgstr "注册时间"
+
+#: bb-admin/admin-functions.php:345
+msgid "Actions"
+msgstr "动作"
+
+#: bb-admin/admin-functions.php:526
+#: bb-admin/admin-functions.php:618
+#: bb-includes/template-functions.php:985
+msgid "Delete"
+msgstr "删除"
+
+#: bb-admin/admin-functions.php:546
+#: bb-admin/install.php:203
+msgid "Forum Name:"
+msgstr "论坛名称"
+
+#: bb-admin/admin-functions.php:549
+msgid "Forum Description:"
+msgstr "论坛描述"
+
+#: bb-admin/admin-functions.php:552
+msgid "Forum Parent:"
+msgstr "上级论坛"
+
+#: bb-admin/admin-functions.php:555
+msgid "Position:"
+msgstr "排序"
+
+#: bb-admin/admin-functions.php:566
+msgid "Update Forum &#187;"
+msgstr "更新论坛 &#187;"
+
+#: bb-admin/admin-functions.php:566
+msgid "Add Forum &#187;"
+msgstr "新增论坛 &#187;"
+
+#: bb-admin/admin-functions.php:762
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "发表于: %1$s in <a href=\"%2$s\">%3$s</a>"
+
+#: bb-admin/admin-functions.php:772
+msgid "Count posts of every topic"
+msgstr "计算每个主题的回复数."
+
+#: bb-admin/admin-functions.php:773
+msgid "Count deleted posts on every topic"
+msgstr "计算每个主题所删除的回复数"
+
+#: bb-admin/admin-functions.php:774
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "计算每个讨论区底下的主题跟回复数(包含回复)"
+
+#: bb-admin/admin-functions.php:775
+msgid "Count topics to which each user has replied"
+msgstr "计算有被会员回复的主题"
+
+#: bb-admin/admin-functions.php:776
+msgid "Count tags for every topic"
+msgstr "计算每个主题的标签数"
+
+#: bb-admin/admin-functions.php:777
+msgid "Count topics for every tag"
+msgstr "计算每个标签的主题数"
+
+#: bb-admin/admin-functions.php:778
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "删除没有主题的标签. 如果下面功能勾选时."
+
+#: bb-admin/admin-functions.php:841
+msgid "Visit plugin homepage"
+msgstr "访问插件网站"
+
+#: bb-admin/admin-functions.php:844
+#: bb-admin/admin-functions.php:887
+msgid "Visit author homepage"
+msgstr "访问作者网站"
+
+#: bb-admin/admin-functions.php:893
+msgid "Visit porter homepage"
+msgstr "访问维护者网站"
+
+#: bb-admin/admin.php:7
+#, php-format
+msgid "Your database is out-of-date.  Please <a href='%s'>upgrade</a>."
+msgstr "你的数据库过旧，请<a href='%s'>更新</a>."
+
+#: bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "重新统计"
+
+#: bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "正在计算文章数量..."
+
+#: bb-admin/bb-do-counts.php:25
+msgid "Done counting posts."
+msgstr "文章数量统计已完成。"
+
+#: bb-admin/bb-do-counts.php:34
+msgid "Counting deleted posts..."
+msgstr "正在计算已删除的帖子数..."
+
+#: bb-admin/bb-do-counts.php:45
+msgid "Done counting deleted posts."
+msgstr "已删除的帖子数量已经统计完成。"
+
+#: bb-admin/bb-do-counts.php:47
+msgid "No deleted posts to count."
+msgstr "没有删除的帖子数。"
+
+#: bb-admin/bb-do-counts.php:55
+msgid "Counting forum topics and posts..."
+msgstr "正在计算论坛的主题与回复帖的数量..."
+
+#: bb-admin/bb-do-counts.php:69
+msgid "Done counting forum topics and posts."
+msgstr "文章与回复帖的数量已统计完成。"
+
+#: bb-admin/bb-do-counts.php:76
+msgid "Counting topics to which each user has replied..."
+msgstr "正在计算有被会员回复的主题..."
+
+#: bb-admin/bb-do-counts.php:81
+msgid "Done counting topics."
+msgstr "主题数量已经完成统计。"
+
+#: bb-admin/bb-do-counts.php:88
+msgid "Counting topic tags..."
+msgstr "正在计算主题的标签数量..."
+
+#: bb-admin/bb-do-counts.php:97
+msgid "Done counting topic tags."
+msgstr "主题的标签数量已经完成统计。"
+
+#: bb-admin/bb-do-counts.php:104
+msgid "Counting tagged topics..."
+msgstr "正在计算标签的主题数量..."
+
+#: bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr "标签的主题数量已经完成统计。"
+
+#: bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr "删除没有标签的主题"
+
+#: bb-admin/bb-do-counts.php:133
+msgid "Done recounting.  The process took"
+msgstr "统计已经完成，共花费"
+
+#: bb-admin/bb-do-counts.php:134
+#: bb-admin/upgrade.php:30
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d 此数据库查询共花费 %2$s 秒。"
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "你没有权限调整论版面。"
+
+#: bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "无效的论坛名称，返回并重试。"
+
+#: bb-admin/bb-forum.php:23
+msgid "The forum was not added"
+msgstr "这版区并没被加入"
+
+#: bb-admin/bb-forum.php:30
+msgid "No forums to update!"
+msgstr "没有版面更新!"
+
+#: bb-admin/bb-forum.php:45
+msgid "You don't have the authority to kill off the forums."
+msgstr "你没有权限删除此版区"
+
+#: bb-admin/bb-forum.php:51
+msgid "Error occured while trying to delete forum"
+msgstr "删除版面时发生错误"
+
+#: bb-admin/content-forums.php:17
+msgid "Forum Updated."
+msgstr "更新版区"
+
+#: bb-admin/content-forums.php:20
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "版区已删除，你现在应该<a href=\"%s\">重新统计</a>你的论坛。"
+
+#: bb-admin/content-forums.php:31
+msgid "Forum Management"
+msgstr "版面管理"
+
+#: bb-admin/content-forums.php:34
+msgid "Update Forum"
+msgstr "版区更新"
+
+#: bb-admin/content-forums.php:38
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "你确定你要删除 \"<strong>%s</strong>\" 这版区吗?"
+
+#: bb-admin/content-forums.php:41
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d 主题"
+msgstr[1] "%d 主题"
+
+#: bb-admin/content-forums.php:42
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d 帖子"
+msgstr[1] "%d 帖子"
+
+#: bb-admin/content-forums.php:47
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "删除此版面所有的主题与回复。<em>此操作将无法恢复</em>"
+
+#: bb-admin/content-forums.php:48
+msgid "Move topics from this forum into"
+msgstr "移动此主题到版区到"
+
+#: bb-admin/content-forums.php:58
+msgid "Delete forum &raquo;"
+msgstr "删除版面 &raquo;"
+
+#: bb-admin/content-forums.php:66
+msgid "&laquo; Go back"
+msgstr "&laquo; 返回"
+
+#: bb-admin/content-forums.php:82
+msgid "Add Forum"
+msgstr "新增论坛"
+
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:5
+#: bb-includes/akismet.php:202
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "你在这里想要做什么? 你接下来想要做什么?"
+
+#: bb-admin/content-posts.php:13
+msgid "Deleted Posts"
+msgstr "回复已删除"
+
+#: bb-admin/content.php:11
+msgid "Deleted Topics"
+msgstr "主题已删除"
+
+#: bb-admin/content.php:16
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "最后发表"
+
+#: bb-admin/content.php:17
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:16
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "发表时间"
+
+#: bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr "此回复有问题。"
+
+#: bb-admin/delete-topic.php:16
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "此文章有问题。"
+
+#: bb-admin/export.php:8
+msgid "No thieving allowed."
+msgstr "不合法的东西是不被允许的。"
+
+#: bb-admin/index.php:7
+msgid "Latest Activity"
+msgstr "最近的动作"
+
+#: bb-admin/index.php:8
+msgid "User Registrations"
+msgstr "会员注册"
+
+#: bb-admin/index.php:11
+msgid "profile"
+msgstr "个人中心"
+
+#: bb-admin/index.php:11
+#, php-format
+msgid "registered %s ago"
+msgstr "注册于 %s 之前"
+
+#: bb-admin/index.php:15
+msgid "Recently Moderated"
+msgstr "最近管理动作"
+
+#: bb-admin/index.php:19
+msgid "Post"
+msgstr "发表"
+
+#: bb-admin/index.php:19
+#: bb-templates/kakumei/rss2.php:19
+msgid "on"
+msgstr "在"
+
+#: bb-admin/index.php:19
+msgid "by"
+msgstr "作者"
+
+#: bb-admin/index.php:21
+msgid "Topic titled"
+msgstr "标题"
+
+#: bb-admin/index.php:21
+msgid "started by"
+msgstr "发表于"
+
+#: bb-admin/index.php:29
+msgid "Posts per day"
+msgstr "每日回复述"
+
+#: bb-admin/index.php:30
+msgid "Topics per day"
+msgstr "每日主题数"
+
+#: bb-admin/index.php:31
+msgid "Registrations per day"
+msgstr "每日注册数"
+
+#: bb-admin/index.php:32
+#, php-format
+msgid "Forums started %s ago."
+msgstr "讨论区开始于%s 之前."
+
+#: bb-admin/install.php:12
+msgid "bbPress &rsaquo; Installation"
+msgstr "bbPress &rsaquo; 安装"
+
+#: bb-admin/install.php:19
+#, php-format
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to <a href=\"%s\">upgrade</a> instead?</p><p>To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>完成安装</h1><p>您已经完成 bbPress 的安装，或许您需要前往 <a href=\"%s\">更新</a>?</p><p>想要重新安装请先清除旧的数据库表.</p>"
+
+#: bb-admin/install.php:26
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to run the upgrade scripts instead? To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>完成安装</h1><p>您已经完成 bbPress 的安装，或许您需要更新此程序? 想要重新安装请先清除旧的数据库表.</p>"
+
+#: bb-admin/install.php:34
+#, php-format
+msgid "%s is now a Key Master"
+msgstr "%s 是站长"
+
+#: bb-admin/install.php:35
+msgid "Back to the front page"
+msgstr "回到首页"
+
+#: bb-admin/install.php:39
+msgid "Username not found.  Try again."
+msgstr "没有找到此用户名称，请再次尝试..."
+
+#: bb-admin/install.php:49
+msgid "Welcome to bbPress installation. We&#8217;re now going to go through a few steps to get you up and running with the latest in forums software."
+msgstr "欢迎来到bbPress安装介面. 我们需要经过几个步骤来执行安装"
+
+#: bb-admin/install.php:50
+msgid "First Step &raquo;"
+msgstr "第一步 &raquo;"
+
+#: bb-admin/install.php:78
+msgid "First Step"
+msgstr "第一步"
+
+#: bb-admin/install.php:79
+msgid "Make sure you have <strong>everything</strong> (database information, email address, etc.) entered correctly in <code>config.php</code> before running this script."
+msgstr "请在执行前确认 <strong>每一个资料</strong> (数据库、邮件...等) 并输入正确的资料于<code>config.php</code>里面."
+
+#: bb-admin/install.php:87
+msgid "Your <code>$bb->domain</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "您的<code>$bb->domain</code>设置必须 <strong>不以</strong> 斜线结尾\"<code>/</code>\"。"
+
+#: bb-admin/install.php:90
+msgid "Your <code>$bb->domain</code> setting cannot be parsed."
+msgstr "您的 <code>$bb->domain</code> 设置无法被解析。"
+
+#: bb-admin/install.php:92
+msgid "Your <code>$bb->domain</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "您的 <code>$bb->domain</code> 设置 <strong>必须</strong> 开始于 <code>http://</code>。"
+
+#: bb-admin/install.php:94
+msgid "Your <code>$bb->domain</code> setting must only include the <code>http://</code> and the domain name; it may not include any directories or path information."
+msgstr "您的 <code>$bb->domain</code> 设置必须仅包含<code>http://</code>和网址;它不包含目录和路径内容。"
+
+#: bb-admin/install.php:96
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> start with a backslash \"<code>/</code>\"."
+msgstr "您的<code>$bb->path</code> 设置 <strong>必须</strong> 有一个斜线作为开始\"<code>/</code>\"。"
+
+#: bb-admin/install.php:98
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> end with a backslash \"<code>/</code>\"."
+msgstr "您的 <code>$bb->path</code>设置 <strong>必须</strong> 有一个斜线作为结尾\"<code>/</code>\"。"
+
+#: bb-admin/install.php:104
+msgid "Your <code>$bb->wp_home</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "您的 <code>$bb->wp_home</code> 设置必须 <strong>不能</strong> 使用斜线结尾 \"<code>/</code>\"。"
+
+#: bb-admin/install.php:107
+msgid "Your <code>$bb->wp_home</code> setting cannot be parsed."
+msgstr "您的 <code>$bb->wp_home</code>设置无法被解析。"
+
+#: bb-admin/install.php:109
+msgid "Your <code>$bb->wp_home</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "您的 <code>$bb->wp_home</code> 设置<strong>必须</strong> 开始于 <code>http://</code>。"
+
+#: bb-admin/install.php:112
+msgid "Your <code>$bb->domain</code> and <code>$bb->wp_home</code> settings do not have the same domain.<br />You cannot share login cookies between the two.<br />Remove the <code>$bb->wp_home</code> setting from your config.php file."
+msgstr "您的<code>$bb->domain</code> 和 <code>$bb->wp_home</code> 设置不一样.<br />您无法分享登入cookies于这两个连接.<br />移除 <code>$bb->wp_home</code> 再您的 config.php 中心的设置。"
+
+#: bb-admin/install.php:121
+msgid "Your <code>$bb->cookiedomain</code> is not in the same domain as your <code>$bb->domain</code>.  You will not be able to log in."
+msgstr "您的 <code>$bb->cookiedomain</code> 和 <code>$bb->domain</code> 不再同一域名下，所以您没有权限登入。"
+
+#: bb-admin/install.php:126
+msgid "Your bbPress URL <code>$bb->path</code> is outside of your <code>$bb->cookiepath</code>.  You may not be able to log in."
+msgstr "您的 bbPress URL <code>$bb->Pfad</code> 在 <code>$bb->Cookiepfades</code> 之外，所以您不能登入。"
+
+#: bb-admin/install.php:164
+msgid "Before we begin we need a little bit of information about your site's first <strong>administrator account</strong>, and your site's first <strong>forum</strong>."
+msgstr "开始之前，我们需要您提供论坛的第一个<strong>管理员帐号</strong>的内容，以及论坛的第一个<strong>版面</strong>的内容。"
+
+#: bb-admin/install.php:167
+#: bb-includes/capabilities.php:68
+msgid "Administrator"
+msgstr "管理员"
+
+#: bb-admin/install.php:169
+#, php-format
+msgid "We found <strong>%s</strong> who is already a \"Key Master\" on these forums.  You may make others later"
+msgstr "我们发现<strong>%s</strong>已经是这些版面的「站长」了。您可以未来再将他人设为站长。"
+
+#: bb-admin/install.php:172
+msgid "Enter your username below.  You will be made the first Key Master on these forums.  Leave this blank if you want to create a new account"
+msgstr "在下面输入您的帐号，您将成为这些版面的第一位站长。</br>如果您想新增新帐号，请将这里留空。"
+
+#: bb-admin/install.php:177
+#: bb-templates/kakumei/login-form.php:4
+#: bb-templates/kakumei/login.php:12
+#: bb-templates/kakumei/login.php:22
+#: bb-templates/kakumei/login.php:32
+#: bb-templates/kakumei/register.php:15
+msgid "Username:"
+msgstr "帐号："
+
+#: bb-admin/install.php:181
+msgid "Email address:"
+msgstr "邮件："
+
+#: bb-admin/install.php:182
+msgid "(You already set this in your <code>config.php</code> file.)"
+msgstr "(您已经设置好您的 <code>config.php</code> 中心)"
+
+#: bb-admin/install.php:185
+msgid "Website:"
+msgstr "网站："
+
+#: bb-admin/install.php:189
+msgid "Location:"
+msgstr "来自："
+
+#: bb-admin/install.php:193
+msgid "Interests:"
+msgstr "兴趣："
+
+#: bb-admin/install.php:199
+msgid "First Forum"
+msgstr "第一个版区"
+
+#: bb-admin/install.php:207
+msgid "Description:"
+msgstr "描述："
+
+#: bb-admin/install.php:211
+msgid "Double-check that username before continuing."
+msgstr "再进行下一步前，请再确认您的使用者名称。"
+
+#: bb-admin/install.php:214
+msgid "Continue to Second Step &raquo;"
+msgstr "继续第二步 &raquo;"
+
+#: bb-admin/install.php:226
+msgid "Bad username.  Go back and try again."
+msgstr "错误的帐号，请返回重试。"
+
+#: bb-admin/install.php:228
+msgid "Username not found.  Go back and try again."
+msgstr "帐号没有找到，请返回重试。"
+
+#: bb-admin/install.php:230
+msgid "You must name your first forum.  Go back and try again."
+msgstr "你必须为第一个版面命名，请返回重试。"
+
+#: bb-admin/install.php:232
+msgid "Second Step"
+msgstr "第二步"
+
+#: bb-admin/install.php:233
+msgid "Now we&#8217;re going to create the database tables and fill them with some default data."
+msgstr "现在我们将新增数据库表，并插入一些默认数据。"
+
+#: bb-admin/install.php:251
+#: bb-admin/install.php:257
+msgid "*Your WordPress password*"
+msgstr "*您的 WordPress 密码*"
+
+#: bb-admin/install.php:278
+msgid "Your first topic"
+msgstr "你的第一个主题"
+
+#: bb-admin/install.php:279
+msgid "First Post!  w00t."
+msgstr "第一篇文章!"
+
+#: bb-admin/install.php:282
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/\n"
+msgstr ""
+"您的 bbPress 论坛已经成功安装在:\n"
+"\n"
+"%1$s\n"
+"\n"
+"您可以用下面的管理员帐号登入:\n"
+"\n"
+"帐号: %2$s\n"
+"密码: %3$s\n"
+"\n"
+"我们希望您使用愉快。谢谢!\n"
+"\n"
+"--The bbPress 团队\n"
+"http://bbpress.org/\n"
+
+#: bb-admin/install.php:297
+msgid "New bbPress installation"
+msgstr "bbPress 安装成功"
+
+#: bb-admin/install.php:299
+msgid "Finished!"
+msgstr "完成!"
+
+#: bb-admin/install.php:301
+#, php-format
+msgid "Now you can <a href=\"%1$s\">log in</a> with the <strong>username</strong> \"<code>%2$s</code>\" and <strong>password</strong> \"<code>%3$s</code>\"."
+msgstr "现在您可以使用<strong>帐号</strong> 「<code>%2$s</code>」，<strong>密码</strong> 「<code>%3$s</code>」 <a href=\"%1$s\">登入</a>。"
+
+#: bb-admin/install.php:303
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress. So to review:"
+msgstr "<strong>请仔细记住密码</strong>! 它是专门为您<strong>随机产生</strong>的密码。如果您忘记了它，您必须自己从数据库中删除数据库表，重新安装 bbPress。内容如下"
+
+#: bb-admin/install.php:308
+#: bb-includes/registration-functions.php:102
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "密码"
+
+#: bb-admin/install.php:310
+msgid "Login address"
+msgstr "登入"
+
+#: bb-admin/install.php:313
+msgid "Were you expecting more steps? Sorry to disappoint. All done! :)"
+msgstr "想进入下一步吗? 不好意思，没下一步了! :)"
+
+#: bb-admin/install.php:318
+msgid "<a href=\"http://bbpress.org/\">bbPress</a>: Simple, Fast, Elegant."
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a>: 简单，快速，优雅。"
+
+#: bb-admin/plugins.php:50
+msgid "Plugin could not be activated; it produced a <strong>Fatal Error</strong>."
+msgstr "插件无法被启用，他产生了 <strong>致命的错误</strong>。"
+
+#: bb-admin/plugins.php:53
+msgid "File is not a valid plugin."
+msgstr "这中心并不是有效的插件。"
+
+#: bb-admin/plugins.php:56
+msgid "Plugin <strong>activated</strong>"
+msgstr "插件 <strong>已启用</strong>"
+
+#: bb-admin/plugins.php:59
+msgid "Plugin <strong>deactivated</strong>"
+msgstr "插件 <strong>已关闭</strong>"
+
+#: bb-admin/plugins.php:86
+#: bb-admin/plugins.php:120
+#, php-format
+msgid "By %s."
+msgstr "By %s"
+
+#: bb-admin/plugins.php:102
+msgid "Automatically loaded plugins"
+msgstr "自动载入插件"
+
+#: bb-admin/site.php:5
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr "下面的复选框允许您重新统计储存在数据库中的数字。这些数字用在计算页数或是某个主题的回复数等。一般情况下您无需仔细这个操作，除非您从一个版本升级到另一个版本，或是一些计数显示异常。"
+
+#: bb-admin/site.php:13
+msgid "Choose items to recalculate"
+msgstr "选择要重新统计的项目"
+
+#: bb-admin/site.php:19
+msgid "Count!"
+msgstr "统计！"
+
+#: bb-admin/tag-destroy.php:6
+#: bb-admin/tag-merge.php:6
+#: bb-admin/tag-rename.php:7
+msgid "You are not allowed to manage tags."
+msgstr "您没有权限管理标签。"
+
+#: bb-admin/tag-destroy.php:14
+#: bb-admin/tag-rename.php:16
+msgid "Tag not found."
+msgstr "没有找到该标签."
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "从 tags 数据库表删除的记录数: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "从 tagged 数据库表删除的记录数: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:19
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">首页</a>"
+
+#: bb-admin/tag-destroy.php:21
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"在尝试删除标签时发生错误。<br />\n"
+"<a href=\"%s\">重试?</a>"
+
+#: bb-admin/tag-merge.php:14
+msgid "Tag specified not found."
+msgstr "指定的标签没有找到。"
+
+#: bb-admin/tag-merge.php:17
+msgid "Tag to be merged not found."
+msgstr "需要合并的标签没有找到。"
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "删除的标签影响到的主题数: %d <br />\n"
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "应用新标签到的主题数: %d <br />\n"
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "从 tags 数据库表删除的记录数: %d <br />\n"
+
+#: bb-admin/tag-merge.php:23
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">新增标签</a>"
+
+#: bb-admin/tag-merge.php:25
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"尝试合并这些标签时发生错误。<br />\n"
+"<a href=\"%s\">重试?</a>"
+
+#: bb-admin/tag-rename.php:21
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "已经有一个同名标签存在，或者标签名称无效。<a href=\"%s\">请重试</a>。"
+
+#: bb-admin/themes.php:20
+#, php-format
+msgid "Theme \"%s\" activated"
+msgstr "主题 \"%s\" 已套用"
+
+#: bb-admin/themes.php:26
+msgid "Theme not found.  Default theme applied."
+msgstr "没有找到其他主题.  已采用默认主题."
+
+#: bb-admin/themes.php:35
+#: bb-admin/themes.php:37
+msgid "Click to activate"
+msgstr "点选启动"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "作者:<cite>%s</cite>"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr "，由<cite>%s</cite>维护"
+
+#: bb-admin/themes.php:50
+msgid "Current Theme"
+msgstr "目前使用主题"
+
+#: bb-admin/themes.php:56
+msgid "Available Themes"
+msgstr "可用的主题"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "无效的主题或版面。"
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "您的主题或版面导致各种溷乱"
+
+#: bb-admin/upgrade.php:19
+msgid "bbPress &rsaquo; Upgrade"
+msgstr "bbPress &rsaquo; 更新"
+
+#: bb-admin/upgrade.php:26
+#, php-format
+msgid "Upgrade complete.  <a href=\"%s\">Enjoy!</a>"
+msgstr "更新完成.  <a href=\"%s\">请享用!</a>"
+
+#: bb-admin/upgrade.php:28
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "不需要更新.  <a href=\"%s\">请返回!</a>"
+
+#: bb-admin/users-blocked.php:9
+msgid "These users have been blocked by the forum administrators"
+msgstr "这些会员被讨论区管理员屏蔽"
+
+#: bb-admin/users-moderators.php:9
+msgid "Forum Administrators"
+msgstr "论坛管理员"
+
+#: bb-admin/view-ip.php:15
+msgid "IP Information"
+msgstr "IP 内容"
+
+#: bb-admin/view-ip.php:16
+msgid "Last 30 posts"
+msgstr "最新 30 篇文章"
+
+#: bb-admin/view-ip.php:33
+msgid "Posted:"
+msgstr "发表时间:"
+
+#: bb-includes/akismet.php:185
+msgid "Akismet Spam"
+msgstr "Akismet 反垃圾机制"
+
+#: bb-includes/akismet.php:198
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <code>$bb->akismet_key</code> variable in your <code>config.php file</code>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr "您指定的 API 码无效。请仔细检查 <code>config.php file</code> 中心中的 <code>$bb->akismet_key</code> 变量的值。如果您还没有 API 码，您可以在 <a href=\"%s\">WordPress.com</a> 申请。"
+
+#: bb-includes/akismet.php:219
+msgid "Not Spam"
+msgstr "不是垃圾文章"
+
+#: bb-includes/akismet.php:221
+msgid "Spam"
+msgstr "垃圾文章"
+
+#: bb-includes/bozo.php:74
+msgid "Counting bozo posts..."
+msgstr "正在计算问题文章..."
+
+#: bb-includes/bozo.php:94
+msgid "Done counting bozo posts."
+msgstr "问题文章计算完成。"
+
+#: bb-includes/bozo.php:105
+msgid "Counting bozo topics for each user...\n"
+msgstr "正在为每个会员计算问题主题...\n"
+
+#: bb-includes/bozo.php:125
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"问题主题计算完成。\n"
+"\n"
+
+#: bb-includes/bozo.php:136
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr "计算每个会员回复过的主题以及每个会员的问题文章"
+
+#: bb-includes/bozo.php:137
+msgid "Count bozo posts on every topic"
+msgstr "计算每个主题的问题文章"
+
+#: bb-includes/bozo.php:236
+msgid "This user is a bozo"
+msgstr "该会员是一个问题人物"
+
+#: bb-includes/bozo.php:242
+msgid "Bozos"
+msgstr "问题人物"
+
+#: bb-includes/bozo.php:252
+msgid "These users have been marked as bozos"
+msgstr "下列会员已被标记为问题人物"
+
+#: bb-includes/capabilities.php:27
+msgid "Key Master"
+msgstr "站长"
+
+#: bb-includes/capabilities.php:105
+msgid "Moderator"
+msgstr "版主"
+
+#: bb-includes/capabilities.php:136
+msgid "Member"
+msgstr "会员"
+
+#: bb-includes/capabilities.php:152
+msgid "Inactive"
+msgstr "尚未开通"
+
+#: bb-includes/classes.php:19
+msgid "Not a valid directory"
+msgstr "无效的目录"
+
+#: bb-includes/classes.php:25
+msgid "Invalid arguments"
+msgstr "无效的参数"
+
+#: bb-includes/formatting-functions.php:266
+#, php-format
+msgid "[closed] %s"
+msgstr "[关闭] %s"
+
+#: bb-includes/functions.php:977
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "你已经被列为\"禁止访问\"本站，如有疑问，请和管理员联络。"
+
+#: bb-includes/functions.php:1476
+msgid "year"
+msgstr "年"
+
+#: bb-includes/functions.php:1476
+msgid "years"
+msgstr "年"
+
+#: bb-includes/functions.php:1477
+msgid "month"
+msgstr "月"
+
+#: bb-includes/functions.php:1477
+msgid "months"
+msgstr "月"
+
+#: bb-includes/functions.php:1478
+msgid "week"
+msgstr "周"
+
+#: bb-includes/functions.php:1478
+msgid "weeks"
+msgstr "周"
+
+#: bb-includes/functions.php:1479
+msgid "day"
+msgstr "天"
+
+#: bb-includes/functions.php:1479
+msgid "days"
+msgstr "天"
+
+#: bb-includes/functions.php:1480
+msgid "hour"
+msgstr "小时"
+
+#: bb-includes/functions.php:1480
+msgid "hours"
+msgstr "小时"
+
+#: bb-includes/functions.php:1481
+msgid "minute"
+msgstr "分钟"
+
+#: bb-includes/functions.php:1481
+msgid "minutes"
+msgstr "分钟"
+
+#: bb-includes/functions.php:1482
+msgid "second"
+msgstr "秒"
+
+#: bb-includes/functions.php:1482
+msgid "seconds"
+msgstr "秒"
+
+#: bb-includes/functions.php:1496
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+#: bb-includes/functions.php:1503
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+#: bb-includes/functions.php:1609
+msgid "User not found."
+msgstr "找不到该用户"
+
+#: bb-includes/functions.php:1678
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.php:1680
+msgid "should be"
+msgstr "应该为"
+
+#: bb-includes/functions.php:1682
+msgid "full permalink"
+msgstr "完全永久连接"
+
+#: bb-includes/functions.php:1684
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.php:1706
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "收藏"
+
+#: bb-includes/functions.php:1757
+msgid "Website"
+msgstr "网站"
+
+#: bb-includes/functions.php:1757
+msgid "Location"
+msgstr "来自"
+
+#: bb-includes/functions.php:1757
+msgid "Occupation"
+msgstr "职业"
+
+#: bb-includes/functions.php:1757
+msgid "Interests"
+msgstr "兴趣"
+
+#: bb-includes/functions.php:1765
+msgid "Custom Title"
+msgstr "自定义头衔"
+
+#: bb-includes/functions.php:1772
+msgid "Ignore the 30 second post throttling limit"
+msgstr "忽略 30 秒防灌水限制"
+
+#: bb-includes/functions.php:1784
+msgid "Topics with no replies"
+msgstr "没有回复的主题"
+
+#: bb-includes/functions.php:1785
+msgid "Topics with no tags"
+msgstr "没有标签的主题"
+
+#: bb-includes/functions.php:1809
+msgid "bbPress Confirmation"
+msgstr "bbPress 确认"
+
+#: bb-includes/functions.php:1824
+#: bb-includes/functions.php:1826
+msgid "No"
+msgstr "否"
+
+#: bb-includes/functions.php:1824
+#: bb-includes/functions.php:1826
+msgid "Yes"
+msgstr "是"
+
+#: bb-includes/functions.php:1864
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; 错误"
+
+#: bb-includes/functions.php:1880
+msgid "Are you sure you want to submit this post?"
+msgstr "您确定要发布这篇文章?"
+
+#: bb-includes/functions.php:1881
+msgid "Are you sure you want to edit this post?"
+msgstr "您确定要编辑这篇文章?"
+
+#: bb-includes/functions.php:1882
+msgid "Are you sure you want to delete this post?"
+msgstr "您确定要删除这篇文章?"
+
+#: bb-includes/functions.php:1884
+msgid "Are you sure you want to create this topic?"
+msgstr "您确定要新增这个主题?"
+
+#: bb-includes/functions.php:1885
+msgid "Are you sure you want to change the resolution status of this topic?"
+msgstr "您确定要更改这个主题的解决状态?"
+
+#: bb-includes/functions.php:1886
+msgid "Are you sure you want to delete this topic?"
+msgstr "您确定要删除这个主题?"
+
+#: bb-includes/functions.php:1887
+msgid "Are you sure you want to change the status of this topic?"
+msgstr "您确定要更改这个主题的状态?"
+
+#: bb-includes/functions.php:1888
+msgid "Are you sure you want to change the sticky status of this topic?"
+msgstr "您确定要更改这个主题的置顶状态?"
+
+#: bb-includes/functions.php:1889
+msgid "Are you sure you want to move this topic?"
+msgstr "您确定要移动这个主题?"
+
+#: bb-includes/functions.php:1891
+msgid "Are you sure you want to add this tag to this topic?"
+msgstr "您确定要新增这个标签到这个主题?"
+
+#: bb-includes/functions.php:1892
+msgid "Are you sure you want to rename this tag?"
+msgstr "您确定要重新命名这个标签?"
+
+#: bb-includes/functions.php:1893
+msgid "Are you sure you want to submit these tags?"
+msgstr "您确定要提交这些标签?"
+
+#: bb-includes/functions.php:1894
+msgid "Are you sure you want to destroy this tag?"
+msgstr "您确定要删除这个标签?"
+
+#: bb-includes/functions.php:1895
+msgid "Are you sure you want to remove this tag from this topic?"
+msgstr "您确定要从这个主题移除这个标签?"
+
+#: bb-includes/functions.php:1897
+msgid "Are you sure you want to toggle your favorite status for this topic?"
+msgstr "您确定要切换这个主题在您的收藏中的状态?"
+
+#: bb-includes/functions.php:1899
+msgid "Are you sure you want to edit this user's profile?"
+msgstr "您确定要编辑这个会员的个人资料?"
+
+#: bb-includes/functions.php:1901
+msgid "Are you sure you want to add this forum?"
+msgstr "您确定要新增这个版面?"
+
+#: bb-includes/functions.php:1902
+msgid "Are you sure you want to update your forums?"
+msgstr "您确定要更新这些版面?"
+
+#: bb-includes/functions.php:1903
+msgid "Are you sure you want to delete that forum?"
+msgstr "您确定要删除该版区?"
+
+#: bb-includes/functions.php:1905
+msgid "Are you sure you want to recount these items?"
+msgstr "您确定要重新统计这些项目?"
+
+#: bb-includes/functions.php:1907
+msgid "Are you sure you want to switch themes?"
+msgstr "您确定要变更主题吗?"
+
+#: bb-includes/functions.php:1922
+msgid "Are you sure you want to do this?"
+msgstr "您确定执行这项操作?"
+
+#: bb-includes/functions.php:2026
+#: bb-includes/functions.php:2091
+msgid "Your search term was too short"
+msgstr "您的关键字太短"
+
+#: bb-includes/functions.php:2070
+msgid "Your query parameters are invalid"
+msgstr "您查询的参数是无效的"
+
+#: bb-includes/locale.php:20
+#: bb-includes/locale.php:30
+#: bb-includes/locale.php:43
+msgid "Sunday"
+msgstr "星期日"
+
+#: bb-includes/locale.php:21
+#: bb-includes/locale.php:31
+#: bb-includes/locale.php:44
+msgid "Monday"
+msgstr "星期一"
+
+#: bb-includes/locale.php:22
+#: bb-includes/locale.php:32
+#: bb-includes/locale.php:45
+msgid "Tuesday"
+msgstr "星期二"
+
+#: bb-includes/locale.php:23
+#: bb-includes/locale.php:33
+#: bb-includes/locale.php:46
+msgid "Wednesday"
+msgstr "星期三"
+
+#: bb-includes/locale.php:24
+#: bb-includes/locale.php:34
+#: bb-includes/locale.php:47
+msgid "Thursday"
+msgstr "星期四"
+
+#: bb-includes/locale.php:25
+#: bb-includes/locale.php:35
+#: bb-includes/locale.php:48
+msgid "Friday"
+msgstr "星期五"
+
+#: bb-includes/locale.php:26
+#: bb-includes/locale.php:36
+#: bb-includes/locale.php:49
+msgid "Saturday"
+msgstr "星期六"
+
+#: bb-includes/locale.php:30
+msgid "S_Sunday_initial"
+msgstr "S_Sunday_initial"
+
+#: bb-includes/locale.php:31
+msgid "M_Monday_initial"
+msgstr "M_Monday_initial"
+
+#: bb-includes/locale.php:32
+msgid "T_Tuesday_initial"
+msgstr "T_Tuesday_initial"
+
+#: bb-includes/locale.php:33
+msgid "W_Wednesday_initial"
+msgstr "W_Wednesday_initial"
+
+#: bb-includes/locale.php:34
+msgid "T_Thursday_initial"
+msgstr "T_Thursday_initial"
+
+#: bb-includes/locale.php:35
+msgid "F_Friday_initial"
+msgstr "F_Friday_initial"
+
+#: bb-includes/locale.php:36
+msgid "S_Saturday_initial"
+msgstr "S_Saturday_initial"
+
+#: bb-includes/locale.php:43
+msgid "Sun"
+msgstr "日"
+
+#: bb-includes/locale.php:44
+msgid "Mon"
+msgstr "一"
+
+#: bb-includes/locale.php:45
+msgid "Tue"
+msgstr "二"
+
+#: bb-includes/locale.php:46
+msgid "Wed"
+msgstr "三"
+
+#: bb-includes/locale.php:47
+msgid "Thu"
+msgstr "四"
+
+#: bb-includes/locale.php:48
+msgid "Fri"
+msgstr "五"
+
+#: bb-includes/locale.php:49
+msgid "Sat"
+msgstr "六"
+
+#: bb-includes/locale.php:52
+#: bb-includes/locale.php:67
+msgid "January"
+msgstr "一月"
+
+#: bb-includes/locale.php:53
+#: bb-includes/locale.php:68
+msgid "February"
+msgstr "二月"
+
+#: bb-includes/locale.php:54
+#: bb-includes/locale.php:69
+msgid "March"
+msgstr "三月"
+
+#: bb-includes/locale.php:55
+#: bb-includes/locale.php:70
+msgid "April"
+msgstr "四月"
+
+#: bb-includes/locale.php:56
+#: bb-includes/locale.php:71
+msgid "May"
+msgstr "五月"
+
+#: bb-includes/locale.php:57
+#: bb-includes/locale.php:72
+msgid "June"
+msgstr "六月"
+
+#: bb-includes/locale.php:58
+#: bb-includes/locale.php:73
+msgid "July"
+msgstr "七月"
+
+#: bb-includes/locale.php:59
+#: bb-includes/locale.php:74
+msgid "August"
+msgstr "八月"
+
+#: bb-includes/locale.php:60
+#: bb-includes/locale.php:75
+msgid "September"
+msgstr "九月"
+
+#: bb-includes/locale.php:61
+#: bb-includes/locale.php:76
+msgid "October"
+msgstr "十月"
+
+#: bb-includes/locale.php:62
+#: bb-includes/locale.php:77
+msgid "November"
+msgstr "十一月"
+
+#: bb-includes/locale.php:63
+#: bb-includes/locale.php:78
+msgid "December"
+msgstr "十二月"
+
+#: bb-includes/locale.php:67
+msgid "Jan_January_abbreviation"
+msgstr "Jan_January_abbreviation"
+
+#: bb-includes/locale.php:68
+msgid "Feb_February_abbreviation"
+msgstr "Feb_February_abbreviation"
+
+#: bb-includes/locale.php:69
+msgid "Mar_March_abbreviation"
+msgstr "Mar_March_abbreviation"
+
+#: bb-includes/locale.php:70
+msgid "Apr_April_abbreviation"
+msgstr "Apr_April_abbreviation"
+
+#: bb-includes/locale.php:71
+msgid "May_May_abbreviation"
+msgstr "May_May_abbreviation"
+
+#: bb-includes/locale.php:72
+msgid "Jun_June_abbreviation"
+msgstr "Jun_June_abbreviation"
+
+#: bb-includes/locale.php:73
+msgid "Jul_July_abbreviation"
+msgstr "Jul_July_abbreviation"
+
+#: bb-includes/locale.php:74
+msgid "Aug_August_abbreviation"
+msgstr "Aug_August_abbreviation"
+
+#: bb-includes/locale.php:75
+msgid "Sep_September_abbreviation"
+msgstr "Sep_September_abbreviation"
+
+#: bb-includes/locale.php:76
+msgid "Oct_October_abbreviation"
+msgstr "Oct_October_abbreviation"
+
+#: bb-includes/locale.php:77
+msgid "Nov_November_abbreviation"
+msgstr "Nov_November_abbreviation"
+
+#: bb-includes/locale.php:78
+msgid "Dec_December_abbreviation"
+msgstr "Dec_December_abbreviation"
+
+#: bb-includes/locale.php:85
+msgid "am"
+msgstr "上午"
+
+#: bb-includes/locale.php:86
+msgid "pm"
+msgstr "下午"
+
+#: bb-includes/locale.php:87
+msgid "AM"
+msgstr "上午"
+
+#: bb-includes/locale.php:88
+msgid "PM"
+msgstr "下午"
+
+#: bb-includes/locale.php:93
+msgid "number_format_decimals"
+msgstr "number_format_decimals"
+
+#: bb-includes/locale.php:96
+msgid "number_format_decimal_point"
+msgstr "number_format_decimal_point"
+
+#: bb-includes/locale.php:99
+msgid "number_format_thousands_sep"
+msgstr "number_format_thousands_sep"
+
+#: bb-includes/registration-functions.php:44
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "重新设置密码"
+
+#: bb-includes/registration-functions.php:44
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"如果您想重新设置密码，您可以浏览下面的地址:\n"
+"\n"
+"%s\n"
+"\n"
+"如果您不想重新设置密码，只要忽略这封 Email。谢谢!"
+
+#: bb-includes/registration-functions.php:57
+#: bb-includes/registration-functions.php:59
+#: bb-includes/registration-functions.php:70
+msgid "Key not found."
+msgstr "没有找到钥匙。"
+
+#: bb-includes/registration-functions.php:64
+msgid "You are not allowed to change your password."
+msgstr "您没有权限更改密码。"
+
+#: bb-includes/registration-functions.php:101
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"您的帐号是: %1$s \n"
+"您的密码是: %2$s \n"
+"您现在可以登入: %3$s \n"
+"\n"
+"使用愉快!"
+
+#: bb-includes/script-loader.php:23
+msgid "drag"
+msgstr "拖曳"
+
+#: bb-includes/script-loader.php:24
+msgid "Save Forum Order &#187;"
+msgstr "保存版区设置 &#187"
+
+#: bb-includes/template-functions.php:101
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "个人资料"
+
+#: bb-includes/template-functions.php:138
+msgid "Reply"
+msgstr "回复"
+
+#: bb-includes/template-functions.php:140
+msgid "New Topic in this Forum"
+msgstr "此讨论区的新主题"
+
+#: bb-includes/template-functions.php:142
+msgid "Add New Topic"
+msgstr "新增主题"
+
+#: bb-includes/template-functions.php:167
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "您必须 <a href=\"%s\">登入</a> 后才能回复"
+
+#: bb-includes/template-functions.php:304
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "标签"
+
+#: bb-includes/template-functions.php:316
+#, php-format
+msgid "Topic: %s"
+msgstr "主题： %s"
+
+#: bb-includes/template-functions.php:318
+#, php-format
+msgid "Tag: %s"
+msgstr "标签： %s"
+
+#: bb-includes/template-functions.php:320
+#, php-format
+msgid "Forum: %s"
+msgstr "版面： %s"
+
+#: bb-includes/template-functions.php:322
+#: bb-templates/kakumei/search.php:37
+msgid "Recent Posts"
+msgstr "最新的回复"
+
+#: bb-includes/template-functions.php:733
+msgid "Are you sure you wanna delete that?"
+msgstr "您确定要删除此项 ?"
+
+#: bb-includes/template-functions.php:733
+msgid "Delete entire topic"
+msgstr "删除整个主题"
+
+#: bb-includes/template-functions.php:735
+#: bb-includes/template-functions.php:983
+msgid "Are you sure you wanna undelete that?"
+msgstr "您确定要取消删除它吗?"
+
+#: bb-includes/template-functions.php:735
+msgid "Undelete entire topic"
+msgstr "取消删除整个主题"
+
+#: bb-includes/template-functions.php:748
+msgid "Close topic"
+msgstr "关闭主题"
+
+#: bb-includes/template-functions.php:748
+msgid "Open topic"
+msgstr "打开主题"
+
+#: bb-includes/template-functions.php:763
+msgid "Unstick topic"
+msgstr "取消置顶"
+
+#: bb-includes/template-functions.php:765
+msgid "Stick topic"
+msgstr "本版置顶"
+
+#: bb-includes/template-functions.php:765
+msgid "to front"
+msgstr "首页置顶"
+
+#: bb-includes/template-functions.php:772
+msgid "View normal posts"
+msgstr "浏览一般文章"
+
+#: bb-includes/template-functions.php:774
+msgid "View all posts"
+msgstr "浏览所有文章"
+
+#: bb-includes/template-functions.php:780
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s 回复"
+msgstr[1] "%s 回复"
+
+#: bb-includes/template-functions.php:791
+#, php-format
+msgid "+%d more"
+msgstr "+%d 更多"
+
+#: bb-includes/template-functions.php:816
+msgid "Move this topic to the selected forum:"
+msgstr "将该主题移动到选择的版面："
+
+#: bb-includes/template-functions.php:820
+msgid "Move"
+msgstr "Move"
+
+#: bb-includes/template-functions.php:843
+msgid "Add New &raquo;"
+msgstr "发表 &raquo;"
+
+#: bb-includes/template-functions.php:909
+msgid "Anonymous"
+msgstr "匿名"
+
+#: bb-includes/template-functions.php:983
+msgid "Undelete"
+msgstr "取消删除"
+
+#: bb-includes/template-functions.php:1002
+#: bb-includes/template-functions.php:1017
+msgid "Unregistered"
+msgstr "未注册"
+
+#: bb-includes/template-functions.php:1093
+msgid "Delete User &raquo;"
+msgstr "删除会员 &raquo;"
+
+#: bb-includes/template-functions.php:1094
+msgid "Are you sure you want to delete this user?"
+msgstr "您确定您要删除该会员吗?"
+
+#: bb-includes/template-functions.php:1191
+msgid "Member Since"
+msgstr "注册时间"
+
+#: bb-includes/template-functions.php:1192
+#: bb-templates/kakumei/search.php:29
+msgid "F j, Y"
+msgstr "Y年m月d日"
+
+#: bb-includes/template-functions.php:1228
+#: bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr "<br />您的邮件有问题，请检查。"
+
+#: bb-includes/template-functions.php:1230
+#: bb-includes/template-functions.php:1281
+#: bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr "<br />下面栏目为必要栏目"
+
+#: bb-includes/template-functions.php:1237
+#: bb-includes/template-functions.php:1286
+#: bb-templates/kakumei/register.php:39
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "这些项目是<span class=\"required\">必填的</span>。"
+
+#: bb-includes/template-functions.php:1256
+msgid "User Type:"
+msgstr "会员类型:"
+
+#: bb-includes/template-functions.php:1265
+msgid "Allow this user to:"
+msgstr "允许该会员:"
+
+#: bb-includes/template-functions.php:1288
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+"删除将使该会员所发内容均变为匿名会员所发，并且无法恢复。被删除的会员可以执行任何访客可以执行的操作。\n"
+"更好的解决方法是将会员的会员类型更改为「未启动」或者「屏蔽」。\n"
+"「未启动」会员可以登入和浏览文章内容，但是不能做其它任何事情。「屏蔽」会员在浏览本站时只能看到一项错误内容。</p>\n"
+"<p><strong>注意</strong>: 屏蔽一个会员<strong>并不会</strong>屏蔽任何 IP 地址。"
+
+#: bb-includes/template-functions.php:1302
+msgid "Log out"
+msgstr "登出"
+
+#: bb-includes/template-functions.php:1321
+msgid "Admin"
+msgstr "系统设置"
+
+#: bb-includes/template-functions.php:1334
+msgid "View your profile"
+msgstr "控制面版"
+
+#: bb-includes/template-functions.php:1479
+msgid "Rename tag:"
+msgstr "重新命名标签："
+
+#: bb-includes/template-functions.php:1483
+msgid "Rename"
+msgstr "重新命名"
+
+#: bb-includes/template-functions.php:1487
+msgid "Merge this tag into:"
+msgstr "合并此标签到："
+
+#: bb-includes/template-functions.php:1491
+msgid "Merge"
+msgstr "合并"
+
+#: bb-includes/template-functions.php:1492
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "您确定要将「%s」标签与您指定的标签合并? 这项操作是无法恢复的。"
+
+#: bb-includes/template-functions.php:1496
+msgid "Destroy tag:"
+msgstr "删除标签："
+
+#: bb-includes/template-functions.php:1499
+msgid "Destroy"
+msgstr "删除"
+
+#: bb-includes/template-functions.php:1500
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "您确定要删除「%s」标签? 这项操作是无法恢复的。"
+
+#: bb-includes/template-functions.php:1515
+msgid "Remove this tag"
+msgstr "移除该标签"
+
+#: bb-includes/template-functions.php:1595
+#, php-format
+msgid "%d topics"
+msgstr "%d 主题"
+
+#: bb-includes/template-functions.php:1656
+msgid "- None -"
+msgstr "- 无 -"
+
+#: bb-includes/template-functions.php:1682
+#: bb-includes/js/topic-js.php:70
+msgid "Add this topic to your favorites"
+msgstr "加到你的收藏"
+
+#: bb-includes/template-functions.php:1682
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/template-functions.php:1684
+msgid "This topic is one of your %favorites% ["
+msgstr "此主题是 %favorites% 之一["
+
+#: bb-includes/template-functions.php:1684
+msgid "x"
+msgstr "x"
+
+#: bb-includes/template-functions.php:1684
+msgid "]"
+msgstr "]"
+
+#: bb-includes/wp-functions.php:761
+msgid "&laquo; Previous"
+msgstr "&laquo; 前一页"
+
+#: bb-includes/wp-functions.php:762
+msgid "Next &raquo;"
+msgstr "下一页 &raquo;"
+
+#: bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "您确定你要删除 %s?"
+
+#: bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr "跳转到新项目"
+
+#: bb-includes/js/topic-js.php:9
+#, php-format
+msgid "Are you sure you wanna delete this post by \"' + %s + '\"?"
+msgstr "您确定您要删除由 “' + %s + '”发表的帖子吗?"
+
+#: bb-includes/js/topic-js.php:40
+#, php-format
+msgid "Are you sure you want to remove the \"' + %s + '\" tag?"
+msgstr "您确定要删除“' + %s + '”标签吗?"
+
+#: bb-includes/js/topic-js.php:68
+#, php-format
+msgid "This topic is one of your <a href=' + %s + '>favorites</a>"
+msgstr "这个主题是在您的<a href=' + %s + '>收藏</a>中"
+
+#: bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "您没有权限进行该项操作。"
+
+#: bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "发生了不知名的错误，请重新整理本页。"
+
+#: bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "请收后，我们仍在发布您的资料!"
+
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "主题："
+
+#: bb-templates/kakumei/edit-form.php:10
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "回复："
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "编辑帖子 &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Allowed markup:"
+msgstr "允许的 HTML语法："
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "将代码放在<code>`backticks`</code>中间。"
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "编辑文章"
+
+#: bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "目前的收藏"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+"您的收藏允许您新增自定义 <abbr title=\"Really Simple Syndication\">RSS</abbr> ，用来瞭解最近您指定的主题的回复。\n"
+"要新增主题到您的收藏列表，只要点击主题所在页面的「新增到我的收藏」连接。"
+
+#: bb-templates/kakumei/favorites.php:11
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "订阅您的收藏 <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> </a>。"
+
+#: bb-templates/kakumei/favorites.php:21
+msgid "Remove"
+msgstr "移除"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "You currently have no favorites."
+msgstr "您目前没有任何收藏。"
+
+#: bb-templates/kakumei/favorites.php:44
+msgid "currently has no favorites."
+msgstr "目前没有任何收藏。"
+
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s 程序由 <a href=\"%2$s\">bbPress</a> 团队制作。</p>"
+
+#: bb-templates/kakumei/forum.php:17
+#: bb-templates/kakumei/front-page.php:25
+#: bb-templates/kakumei/view.php:17
+msgid "Sticky:"
+msgstr "置顶："
+
+#: bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr "本版面的 RSS "
+
+#: bb-templates/kakumei/forum.php:40
+msgid "Subforums"
+msgstr "子版区"
+
+#: bb-templates/kakumei/forum.php:44
+#: bb-templates/kakumei/front-page.php:48
+msgid "Main Theme"
+msgstr "主要论坛"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "热门标签"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "最新讨论"
+
+#: bb-templates/kakumei/front-page.php:64
+msgid "Views"
+msgstr "浏览"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "欢迎光临, %1$s!"
+
+#: bb-templates/kakumei/login-form.php:2
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in"
+msgstr "<a href=\"%1$s\">注册</a>或登入"
+
+#: bb-templates/kakumei/login-form.php:7
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/login.php:36
+msgid "Password:"
+msgstr "密码："
+
+#: bb-templates/kakumei/login-form.php:11
+#: bb-templates/kakumei/login.php:43
+msgid "Log in &raquo;"
+msgstr "登入&raquo;"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "登入"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "登入失败"
+
+#: bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "密码错误"
+
+#: bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "没有此帐号"
+
+#: bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "是否注册?"
+
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again &raquo;"
+msgstr "再尝试一次 &raquo;"
+
+#: bb-templates/kakumei/login.php:51
+msgid "If you would like to recover the password for this account, you may use the following button to start the recovery process:"
+msgstr "如果您想找回这个帐号的密码，可以点击下面的按钮："
+
+#: bb-templates/kakumei/login.php:53
+msgid "Recover Password &raquo;"
+msgstr "找回密码 &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "您的密码已经被重新设置，新密码已经发送到您的电子邮件中。"
+
+#: bb-templates/kakumei/password-reset.php:10
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything with a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "一封 Email 已经发送到您注册使用的电子邮件中。如果您几分钟后没有收到电子信件，或者您的 Email 已经更改，您需要联繫本论坛的管理员。"
+
+#: bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "标题："
+
+#: bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to help someone find your topic:"
+msgstr "输入几个关键字 (称为<a href=\"%s\">标签</a>)，以空格分隔，方便他人找到您的主题："
+
+#: bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "选择一个版面："
+
+#: bb-templates/kakumei/post-form.php:28
+msgid "Send Post &raquo;"
+msgstr "发表 &raquo;"
+
+#: bb-templates/kakumei/post.php:8
+#, php-format
+msgid "Posted %s ago"
+msgstr "发表于 %s 前"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "个人资料"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "管理"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "变更密码时，请输入2次新密码以确认："
+
+#: bb-templates/kakumei/profile-edit.php:24
+msgid "New password:"
+msgstr "新密码："
+
+#: bb-templates/kakumei/profile-edit.php:35
+msgid "Update Profile &raquo;"
+msgstr "更新个人资料 &raquo;"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Profile updated"
+msgstr "个人资料已更新。"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Edit again &raquo;"
+msgstr "再次编辑 &raquo;"
+
+#: bb-templates/kakumei/profile.php:11
+#, php-format
+msgid "This is how your profile appears to a fellow logged in member, you may <a href=\"%1$s\">edit this information</a>. You can also <a href=\"%2$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>"
+msgstr "这是您的个人资料，在其他会员浏览时显示的预览，<br>您可以<a href=\"%1$s\">编辑</a>这些资料。<br>您也可以<a href=\"%2$s\">管理</a>您的收藏，或者订阅您收藏的 <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> </a>。"
+
+#: bb-templates/kakumei/profile.php:16
+msgid "User Activity"
+msgstr "会员积极度"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "Recent Replies"
+msgstr "最近回复"
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "您最后回复: %s前。"
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "会员最后回复: %s前。"
+
+#: bb-templates/kakumei/profile.php:28
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "最新回复: %s前"
+
+#: bb-templates/kakumei/profile.php:30
+msgid "No replies since."
+msgstr "之后没有他人回复。"
+
+#: bb-templates/kakumei/profile.php:36
+msgid "No more replies."
+msgstr "没有更多回复。"
+
+#: bb-templates/kakumei/profile.php:38
+msgid "No replies yet."
+msgstr "还没有回复。"
+
+#: bb-templates/kakumei/profile.php:43
+msgid "Threads Started"
+msgstr "发表的主题"
+
+#: bb-templates/kakumei/profile.php:49
+#, php-format
+msgid "Started: %s ago"
+msgstr "发表时间: %s前。"
+
+#: bb-templates/kakumei/profile.php:53
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "最新回复: %s前."
+
+#: bb-templates/kakumei/profile.php:55
+msgid "No replies."
+msgstr "没有回复。"
+
+#: bb-templates/kakumei/profile.php:61
+msgid "No more topics posted."
+msgstr "没有更多的主题发表。"
+
+#: bb-templates/kakumei/profile.php:63
+msgid "No topics posted yet."
+msgstr "还没有主题发表。"
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "注册"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "恭喜!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "您成功注册为 <strong>%s</strong>。几分钟后您会收到一封 Email，里面包含了您的密码。"
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "注册"
+
+#: bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr "个人资料"
+
+#: bb-templates/kakumei/register.php:11
+msgid "Your password will be emailed to the address you provide."
+msgstr "您的密码将寄送到您刚刚所填的电子邮件中。"
+
+#: bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr "这帐号是无效的，请更换一个"
+
+#: bb-templates/kakumei/register.php:21
+msgid "Username<sup>*</sup>:"
+msgstr "帐号<sup>*</sup>："
+
+#: bb-templates/kakumei/register.php:45
+msgid "Register &raquo;"
+msgstr "注册 &raquo;"
+
+#: bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "您已经注册，无需再次注册。"
+
+#: bb-templates/kakumei/search-form.php:2
+msgid "Search:"
+msgstr "搜索："
+
+#: bb-templates/kakumei/search-form.php:6
+msgid "Search &raquo;"
+msgstr "搜索 &raquo;"
+
+#: bb-templates/kakumei/search-form.php:8
+msgid "Search again &raquo;"
+msgstr "再次搜索 &raquo;"
+
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "搜索"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "搜索"
+
+#: bb-templates/kakumei/search.php:21
+msgid "Thread title matches"
+msgstr "主题标题匹配"
+
+#: bb-templates/kakumei/search.php:29
+#, php-format
+msgid " %1$d replies &#8212; Last reply: %2$s"
+msgstr " %1$d 项回复 — 最后回复: %2$s"
+
+#: bb-templates/kakumei/search.php:42
+#: bb-templates/kakumei/search.php:54
+msgid "Posted"
+msgstr "发表时间:"
+
+#: bb-templates/kakumei/search.php:42
+#: bb-templates/kakumei/search.php:54
+msgid "F j, Y, h:i A"
+msgstr "Y年m月d日 h:i A"
+
+#: bb-templates/kakumei/search.php:49
+msgid "Relevant posts"
+msgstr "相关文章"
+
+#: bb-templates/kakumei/search.php:61
+msgid "No results found."
+msgstr "没有找到相关结果。"
+
+#: bb-templates/kakumei/search.php:64
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "您也可以尝试<a href=\"http://google.com/search?q=site:%1$s %2$s\">使用 Google 搜索</a>"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "注册会员"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "热门主题"
+
+#: bb-templates/kakumei/tag-form.php:4
+msgid "Add &raquo;"
+msgstr "新增 &raquo;"
+
+#: bb-templates/kakumei/tag-single.php:5
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr "这个标签的 <abbr title=\"Really Simple Syndication\">RSS</abbr> 连接。"
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "这里显示了目前论坛中最热门的标签。"
+
+#: bb-templates/kakumei/topic-tags.php:5
+msgid "Tags:"
+msgstr "标签："
+
+#: bb-templates/kakumei/topic-tags.php:15
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "没有<a href=\"%s\">标签</a>。"
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "发表于 %1$s前，作者为 %2$s"
+
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">最后回复</a>来自 %2$s"
+
+#: bb-templates/kakumei/topic.php:40
+msgid "RSS feed for this topic"
+msgstr "这个主题的 RSS "
+
+#: bb-templates/kakumei/topic.php:48
+msgid "Topic Closed"
+msgstr "主题已关闭"
+
+#: bb-templates/kakumei/topic.php:49
+msgid "This topic has been closed to new replies."
+msgstr "这个主题已经关闭，不允许新回复。"
