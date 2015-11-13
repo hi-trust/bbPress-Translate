@@ -1,4 +1,4 @@
-# Translation of Development (trunk) in Chinese (Taiwan)
+# Translation of Development (trunk) in Chinese (China)
 # This file is distributed under the same license as the Development (trunk) package.
 msgid ""
 msgstr ""
